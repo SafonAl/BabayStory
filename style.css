@@ -35,3 +35,17 @@ h2:hover {
 p:hover{
     color: #FF2E63;
 }
+
+.heading {
+    margin: 50px;
+}
+
+.img {
+    transition: transform  .3s;
+
+}
+
+img:hover {
+    transform: scale(2);
+    border-color: aqua;
+}
